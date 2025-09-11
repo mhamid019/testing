@@ -35,3 +35,21 @@ nav span {margin-right: auto;}
 #myBtn {background: blue; border: none; outline: none; padding: 8px 26px; color: #ffe; margin-top: 2rem; cursor: pointer; border-radius: 4px;}
 
 .wrap1.add-bg-color {background: green; color: #dde;}
+
+img {
+    display: block;
+    margin: auto;
+    background: #edd;
+    padding: 0.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 2rem;
+}
