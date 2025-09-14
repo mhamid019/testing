@@ -68,6 +68,62 @@ img {
     margin-top: 2rem;
 }
 
+
+/* contact form */
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-form {
+    width: 300px;
+    height: auto;
+    padding: 1rem;
+    background: rgb(255, 148, 166);
+    box-shadow: 0 0 10px rgb(88, 82, 88);
+    border-radius: 10px;
+}
+
+.input-form h2 {margin: 10px auto;}
+
+.input-form label {display: block;}
+
+.input-form input[type = "text"],
+.input-form [type = "number"],
+.input-form [type = "email"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(239, 239, 249);
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input-form input[type = "text"]:focus,
+.input-form [type = "number"]:focus,
+.input-form [type = "email"]:focus {
+    background: #adea85;
+}
+
+.input-form input[type = "button"] {
+    display: block;
+    text-align: center;
+    background: blue;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 1rem auto;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgb(70, 70, 78);
+    color: #fff;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 468px) {
     nav a {margin-right: 10px;}
 }
